@@ -24,7 +24,7 @@ jobs:
           php artisan key:generate
           php artisan cache:clear
     - name: Send email
-      uses: dawidd6/action-send-mail@v2
+      uses: dawidd6/action-send-mail@v3
       with:
           server_address: smtp.gmail.com
           server_port: 465
