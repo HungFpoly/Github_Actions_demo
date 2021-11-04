@@ -24,11 +24,11 @@ jobs:
           php artisan key:generate
           php artisan cache:clear
     - name: Send email
-      uses: dawidd6/action-send-mail@v1.3.0
+      uses: dawidd6/action-send-mail@v3.6.0
       with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: HungFpoly
+          username: Pham Hung
           password: 0977083561Hung
           subject: Your a star ✨
           body: ${{ github.actor }} just starred your mail-on-star repo!!! ${{ github.repository }}
