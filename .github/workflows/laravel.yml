@@ -28,7 +28,7 @@ jobs:
       with:
           server_address: smtp.gmail.com
           server_port: 587
-          username: Pham Hung
+          username: phamcongquochung558247@gmail.com
           password: 0977083561Hung
           subject: Github Actions job result
           # Literal body:
