@@ -32,6 +32,8 @@ jobs:
           sender: phamcongquochung
           from: phamcongquochung558247@gmail.com
           subject: Github Actions job result
+          body: file://readme.md
+          attachments: '[{"path":"readme.md"}]'
           to: phamcongquochung2000@gmail.com
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
