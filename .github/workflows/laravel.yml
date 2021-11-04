@@ -24,7 +24,7 @@ jobs:
           php artisan key:generate
           php artisan cache:clear
     - name: Send email
-      uses: devellany/send-mail@v1.0.2
+      uses: dawidd6/action-send-mail@v1.3.0
       with:
           host: smtp.google.com
           account: phamcongquochung558247@gmail.com
