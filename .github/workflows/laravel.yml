@@ -34,5 +34,5 @@ jobs:
           body: ${{ github.actor }} just starred your mail-on-star repo!!! ${{ github.repository }}
           to: phamcongquochung2000@gmail.com
           from: phamcongquochung558247@gmail.com
-    - name: Directory Permissions
+    - name: Directory Permissions 
       run: chmod -R 777 storage bootstrap/cache
