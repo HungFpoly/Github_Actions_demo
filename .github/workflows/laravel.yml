@@ -26,14 +26,13 @@ jobs:
     - name: Send email
       uses: dawidd6/action-send-mail@v1.3.0
       with:
-          host: smtp.google.com
-          account: phamcongquochung558247@gmail.com
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: HungFpoly
           password: 0977083561Hung
-          sender: phamcongquochung
-          from: phamcongquochung558247@gmail.com
-          subject: Github Actions job result
-          body: file://readme.md
-          attachments: '[{"path":"readme.md"}]'
+          subject: Your a star ✨
+          body: ${{ github.actor }} just starred your mail-on-star repo!!! ${{ github.repository }}
           to: phamcongquochung2000@gmail.com
+          from: phamcongquochung558247@gmail.com
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
