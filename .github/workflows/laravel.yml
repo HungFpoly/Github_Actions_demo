@@ -28,13 +28,13 @@ jobs:
       with:
           server_address: smtp.gmail.com
           server_port: 465
-          username: TV MUSIC
-          password: 0977083561hung
+          username: Pham Hung
+          password: 0977083561Hung
           subject: Github Actions job result
           # Literal body:
           body: Build job of ${{github.repository}} completed successfully!
-          to: phamcongquochung558247@gmail.com
-          from: phamcongquochung2000@gmail.com
+          to: phamcongquochung2000@gmail.com
+          from: phamcongquochung558247@gmail.com
           # Optional carbon copy recipients
           cc: kyloren@starkiller.com,leia@alderaan.com
           # Optional blind carbon copy recipients
