@@ -26,7 +26,7 @@ jobs:
     - name: Send email
       uses: devellany/send-mail@v1.0.2
       with:
-          host: smtp.naver.com
+          host: smtp.google.com
           account: phamcongquochung558247@gmail.com
           password: 0977083561Hung
           sender: phamcongquochung
